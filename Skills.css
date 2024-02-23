@@ -11,8 +11,9 @@
     background-color: #03a8f483;
     padding: 2rem 3rem;
     border-radius: 3rem;
-    margin-left: 17rem;
+    margin-left: 14rem;
     margin-top: 2rem;
+    margin-bottom: 80px;
     height: max-content;
     width: 35rem;
     transition: all 0.4s ease;
@@ -54,7 +55,7 @@
     font-size: 1.2rem;
 }
 
-@media (max-width:1077px){
+/* @media (max-width:1077px){
     .experience__container{
         margin-left: 5.5rem;
     }
@@ -63,11 +64,6 @@
 @media (max-width: 769px){
     .experience__container{
         margin-left: -4rem;
-    }
-}
-@media (max-width: 640px){
-    .experience__Header{
-        margin-left: 6rem;
     }
 }
     
@@ -91,4 +87,4 @@
         margin-left: 0.7rem;
         margin-right: 9rem;
 }
-}
+} */

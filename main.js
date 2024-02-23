@@ -5,8 +5,14 @@ let started=false
 let expsection=document.querySelector('.expertwo')
 let spans=document.querySelectorAll('.progress span')
 
+let proloader=document.getElementById('proloader');
+
+window.addEventListener('load',()=>{
+  proloader.style.display='none';
+})
+
 var typed = new Typed('.autoType',{
-  strings:["Programmer","Front-End Developer"],
+  strings:["Programmer","Front-End Dev"],
   typeSpeed:150,
   backSpeed:150,
   loop:true
@@ -108,11 +114,19 @@ const data=[
     },
     {
       id:8,
-      image:'images/MUI.jpg',
+      image:'images/materialUI.jpg',
       header:'Material UI project',
       title:"A full Material UI project with dark mode and light mode,its fully working in local host only because i use a JSON server not an API",
       github:'https://github.com/Lotus-Kattini/MUI-React-Pro',
       demo:'https://lk-material-ui-project.netlify.app/'
+    },
+    {
+      id:9,
+      image:'images/guessGame.jpg',
+      header:'Guess Word Game',
+      title:"A game project that requires a lot of logic and really good understanding of JS, its fully responsive with so many features",
+      github:'https://github.com/Lotus-Kattini/Guess-word-game',
+      demo:'https://guess-the-word-game-lk.netlify.app/'
     },
 ]
 
